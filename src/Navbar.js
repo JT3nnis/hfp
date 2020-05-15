@@ -21,6 +21,14 @@ function Navbar() {
       >
         <img className="CustomSocialIcon vertical-center" src={PetFinderLogo} alt="petfinder" />
       </a>
+      <div>
+        <ul className="navMenu center">
+          <li className="navItem">About Us</li>
+          <li className="navItem">Adopt</li>
+          <li className="navItem">Donate</li>
+          <li className="navItem">Contact Us</li>
+        </ul>
+      </div>
     </div>
   );
 }
