@@ -1,0 +1,20 @@
+.SocialLinks {
+  margin: 10px 0px 0px 10px;
+}
+
+.SocialLink {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.FASocialIcon {
+  color: rgb(0, 0, 0);
+  font-size: 48px;
+  width: 48px;
+}
+
+.CustomSocialIcon {
+  height: 48px;
+  width: 48px;
+  vertical-align: top;
+}
