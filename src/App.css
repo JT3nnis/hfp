@@ -7,6 +7,39 @@
   pointer-events: none;
 }
 
+.SocialLinks {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.SocialLogo {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.Menu {
+  list-style: none;
+}
+
+.MenuItem {
+  width: 100px;
+  float: left;
+  background-color: blueviolet;
+}
+
+.doglogo {
+  height: 30vmin;
+}
+
+.fblogo {
+  height: 50px
+}
+
+.petfinderlogo {
+  height: 50px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -25,7 +58,6 @@
 }
 
 .App-link {
-  background-color: rgb(255, 255, 255);
   color: #61dafb;
 }
 
