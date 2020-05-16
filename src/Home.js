@@ -1,7 +1,9 @@
 import React from "react";
 import "./App.css";
 import fblogo from "./fblogo.svg";
+import hfplogo from "./doglogo.png";
 import petfinderlogo from "./petfinderLogoBlack.png";
+import { logDOM } from "@testing-library/react";
 
 function Home() {
     return (
@@ -28,6 +30,7 @@ function Home() {
                 <ul className="Menu">
                     <li className="MenuItem">About Us</li>
                     <li className="MenuItem">Adopt</li>
+                    <img src={hfplogo} className="MenuItem" alt="logo" />
                     <li className="MenuItem">Donate</li>
                     <li className="MenuItem">Contact Us</li>
                 </ul>
