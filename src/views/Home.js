@@ -45,15 +45,15 @@ function Home() {
                     <div className="menu-item">Donate</div>
                     <div className="menu-item">Contact Us</div>
                 </div>
-                <div classname="rowofdogs">
+                <div className="rowofdogs">
                     <div className="hfpdogs"> 
-                        <img src={hfpdog1} alt="Dog" />
+                        <img className="hfp-dog" src={hfpdog1} alt="Dog" />
                     </div>
                     <div className="hfpdogs">
-                        <img src={hfpdog2} alt="Dog" />
+                        <img className="hfp-dog" src={hfpdog2} alt="Dog" />
                     </div>
                     <div className="hfpdogs">
-                        <img src={hfpdog3} alt="Dog" />
+                        <img className="hfp-dog" src={hfpdog3} alt="Dog" />
                     </div>
                 </div>
             </div>
