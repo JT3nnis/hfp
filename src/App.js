@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "./doglogo.png";
-import fblogo from "./fblogo.png";
-import petfinderlogo from "./petfinderlogo.jpg";
-import "./App.css";
+import logo from "./images/doglogo.png";
+import fblogo from "./images/fblogo.png";
+import petfinderlogo from "./images/petfinderlogo.jpg";
+import "./styles/App.css";
 
 function App() {
   return (
